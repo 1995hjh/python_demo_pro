@@ -20,3 +20,7 @@ print('\'你好，python\'')
 
 #原字符，不希望原字符中的转义字符起作用，就使用原字符，就是在字符串前加上r或者R
 print(r'helloo\tworld')
+
+# chr() 二进制转汉字    ord()汉字转十进制
+print(chr(0b100111001011000))
+print(ord('乘'))
